@@ -1,0 +1,27 @@
+{
+  "name": "shopping-cart-ysda",
+  "description": "Shopping Cart in React.js",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "license": "IST",
+  "main": "index.js",
+  "author": "yasnaret <yasnaret.soto@gmail.com> (https://github.com/yasnaret)"
+}
